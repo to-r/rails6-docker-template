@@ -1,7 +1,7 @@
 # Ruby on Rails 6 Docker Template
 
 - Ruby 2.7.7
-- Node.js 18.x
+- Node.js 12.x
 - PostgreSQL
 - Bundler 2.4.6
 
