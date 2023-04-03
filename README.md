@@ -38,7 +38,7 @@ RUN bundle _$BUNDLER_VERSION\_ install -j4
 ビルドを実行し、gem をインストールします。
 
 ```sh
-docker-compose build
+docker-compose run web bundle install
 ```
 
 ### 4. データベースの設定変更
