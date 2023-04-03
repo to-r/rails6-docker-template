@@ -19,6 +19,8 @@ services:
       - db
     volumes:
       - .:/myapp
+      - bundle:/usr/local/bundle
+      - node_modules:/myapp_web/node_modules
     ports:
       - "3000:3000"
       - "1234:1234"
@@ -29,3 +31,6 @@ services:
       TZ: 'Asia/Tokyo'
     stdin_open: true
     tty: true
+  volumes:
+    bundle:
+    node_modules:
