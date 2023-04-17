@@ -31,6 +31,7 @@ services:
       TZ: 'Asia/Tokyo'
     stdin_open: true
     tty: true
-  volumes:
-    bundle:
+volumes:
+  bundle:
+  node_modules:
     node_modules:
